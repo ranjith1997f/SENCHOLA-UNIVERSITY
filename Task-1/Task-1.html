@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task one</title>
+</head>
+<body>
+    <h1> <u>Task One</u></h1>
+    <!-- task 1 -->
+    <h2>01.Application Form</h2>
+    <form action="">
+        <div class="Name">
+            <label for="name">Name :</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+        </div><br>
+        <div class="Email">
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+        </div><br>
+        <div class="Gender">
+            <label for="gender">Gender :</label>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+        </div>  <br>
+        <div class="skills">
+            <label for="skill">CHOOSE SKILLS</label><br><br>
+            <label for="html">HTML</label>
+            <input type="checkbox" name="html" id="html">
+           
+            <label for="css">CSS</label>
+            <input type="checkbox" name="css" id="css">
+            
+            <label for="js">JS</label>
+            <input type="checkbox" name="js" id="js">
+           
+            <label for="skill">Bootstrap</label>
+            <input type="checkbox" name="bootstrap" id="bootstrap">
+           
+            <label for="react">React</label>
+            <input type="checkbox" name="react" id="react">
+        </div><br>
+
+        <div class="jobtype">
+            <label for="react">JOB TYPE</label>
+            <select name="jobtype" id="jobtype">
+                <option value="frontend">FRONT END DEVELOPER</option>
+                <option value="backend">BACK END DEVELOPER</option>
+            </select><br><br>
+        </div>
+
+        <div class="browserlist">
+            <label for="react">  Choose your browser from the list:</label>
+            <input type="text" name="browserlist" id="browserlist" >          
+        </div><br>
+
+        <div class="textarea">
+            <textarea name="" id="" cols="20" rows="2">Give a brief summary about you </textarea>                      
+        </div><br>
+
+        <button type="submit">Submit</button>
+    </form><br>
+
+    <!-- Batch List -->
+    <div class="batchlist">
+        <h2>02.Batch List</h2>
+        <ul><li>SENCHOLA UNIVERSITY</li><br>
+            <ol ><li>First Batch</li>
+                <ol type="A"><li>Ravi</li><br>
+                    <li>Manol</li><br>
+                    <li>Sandhiya</li></ol> <br>  
+                    <li>Second Batch</li><br>
+                    <ol type="I"><li>Sundhar</li><br>
+                        <li>Saranya</li><br>
+                        <li>Nandhini</li></ol><br> 
+                        <li>Third Batch</li><br>
+                        <ol type="i"><li>Monika</li><br>
+                            <li>Santhosh</li><br>
+                            <li>Kannan</li></ol> 
+             </ol>                                                 
+        </ul>
+
+    </div><br>
+
+
+     <!-- Courses -->
+     <h2>03.Courses</h2>
+     <table class="courses" border="2"  cellpadding="5" >
+        <thead>
+            <tr>
+                <th>S.NO 1</th>
+                <th>S.NO 2</th>
+                <th>S.NO 3</th>
+                <th>S.NO 4</th>
+            </tr>          
+        </thead>
+        <TBody>
+            <tr>
+                <td rowspan="2">REACT JS</td>
+                <td>HTML</td>
+                <td rowspan="2">REACT JS</td>
+                <td>CSS</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>HTML</td>              
+            </tr>
+            <tr>
+                <td colspan="2">JAVASCRIPT</td>
+                <td colspan="2">BOOTSRAP</td>              
+            </tr>
+        </TBody>
+     </table>
+
+</body>
+</html>
